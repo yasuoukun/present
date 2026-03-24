@@ -938,7 +938,31 @@ section[id] {
     .working-actions { display: flex !important; margin-top: 0.8rem; width: 100%; }
     .working-actions .cta-btn { width: 100% !important; padding: 10px !important; font-size: 0.85rem !important; }
 
-    .modal-content { width: 94% !important; margin: 3% auto; padding: 1rem !important; }
+    /* Full-screen Immersive Modal for Mobile */
+    .modal-overlay { padding: 0 !important; }
+    .modal-content { 
+        width: 100% !important; 
+        height: 100% !important; 
+        max-height: 100vh !important; 
+        margin: 0 !important; 
+        border-radius: 0 !important; 
+        padding: 5rem 1.2rem 2rem !important; /* Top padding to clear close button */
+        border: none !important;
+    }
+    .modal-body-grid { gap: 2rem !important; }
+    .tech-used-card { padding: 1.5rem !important; border-radius: 20px !important; margin-top: 1rem; }
+    .tech-used-card h3 { font-size: 1.2rem !important; }
+    .modal-content h2 { font-size: 1.6rem !important; margin-bottom: 1.5rem !important; }
+    .modal-close-fixed-btn { 
+        top: 20px !important; 
+        right: 20px !important; 
+        width: 44px !important; 
+        height: 44px !important; 
+        font-size: 1.5rem !important; 
+        background: rgba(168, 85, 247, 0.8) !important; 
+        box-shadow: 0 5px 15px rgba(0,0,0,0.4) !important;
+        border-radius: 50% !important;
+    }
     
     /* Revert to 1-Column Stack for Mobile (User request) */
     .gallery-grid-main, .location-flex-wrapper { 
