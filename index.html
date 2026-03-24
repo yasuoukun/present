@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Experience | ประสบการณ์การฝึกงาน</title>
+    <meta name="description" content="พรีเซนต์ประสบการณ์การฝึกงานที่นำเสนอสรุปผลการปฏิบัติงาน สิ่งที่ได้เรียนรู้">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Elements for Glow -->
+    <div class="bg-glow circle-1"></div>
+    <div class="bg-glow circle-2"></div>
+    <div class="bg-glow circle-3"></div>
+
+    <header class="navbar">
+        <div class="logo" style="display: flex; align-items: center; gap: 12px;">
+            <img src="./logo-muni.png" alt="ตราเทศบาลเมืองชัยภูมิ" style="width: 45px; height: 45px; object-fit: contain; filter: drop-shadow(0 2px 5px rgba(0,0,0,0.5));">
+            <img src="./logo-uni.png" alt="มหาวิทยาลัยราชภัฏชัยภูมิ" style="width: 42px; height: 45px; object-fit: contain; filter: drop-shadow(0 2px 5px rgba(0,0,0,0.5));">
+        </div>
+        <nav class="nav-links">
+            <a href="#home">แนะนำตัว</a>
+            <a href="#location">สถานที่ฝึกงาน</a>
+            <a href="#split-view">ทักษะ & งาน</a>
+            <a href="#journey">ไทม์ไลน์ฝึกงาน</a>
+            <a href="#my-working">ผลงานหน้าเว็บ</a>
+            <a href="#gallery">ภาพบรรยากาศ</a>
+            <a href="https://www.facebook.com/share/1AsrULpwVs/" target="_blank" class="mobile-contact-only" style="display: none;">ติดต่อเรา</a>
+        </nav>
+        <button class="cta-btn nav-cta" onclick="window.open('https://www.facebook.com/share/1AsrULpwVs/', '_blank')">ติดต่อเรา</button>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section fade-in">
+            <!-- Faint Background Image -->
+            <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: -1; background-image: url('./cp1.jpg'); background-size: cover; background-position: center; opacity: 0.15; mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); mix-blend-mode: luminosity; pointer-events: none;"></div>
+            <div class="hero-content">
+                <div class="greeting-badge slide-up" style="display: inline-block; background: rgba(168, 85, 247, 0.15); border: 1px solid rgba(168, 85, 247, 0.3); color: #D8B4FE; padding: 8px 18px; border-radius: 20px; font-size: 0.9rem; font-weight: 600; margin-bottom: 1.5rem;">👋 สวัสดีครับ แนะนำตัว</div>
+                <h1 class="hero-title slide-up" style="margin-bottom: 1rem;">นายคุณากร ศรีไทย</h1>
+                <div class="hero-intro glass-panel slide-up" style="padding: 1.5rem 2rem; margin-bottom: 2.5rem; text-align: left; border-left: 4px solid #A855F7; background: rgba(255, 255, 255, 0.03);">
+                    <h3 style="color: #fff; margin-bottom: 0.2rem; font-size: 1.25rem;">นักศึกษาวิทยาการคอมพิวเตอร์ ชั้นปีที่ 4</h3>
+                    <p style="color: #D8B4FE; font-weight: 500; margin-bottom: 1rem; font-size: 0.95rem;">มหาวิทยาลัยราชภัฏชัยภูมิ</p>
+                    <hr style="border: 0; height: 1px; background: rgba(255, 255, 255, 0.1); margin: 1rem 0;">
+                    <p style="line-height: 1.7; font-size: 1rem; color: rgba(255, 255, 255, 0.6);">ฝึกประสบการณ์วิชาชีพที่ <strong style="color: #EC4899; font-weight: 500;">เทศบาลเมืองชัยภูมิ</strong> ในตำแหน่ง <strong style="color: #EC4899; font-weight: 500;">Developer , It Support</strong> พัฒนาองค์กร สร้างสรรค์ระบบเพื่อตอบโจทย์การทำงานในยุคดิจิทัล</p>
+                </div>
+                <!-- Removed hero actions -->
+            </div>
+            <div class="hero-visual">
+                <div class="creative-profile-wrapper">
+                    <!-- Background animated rings -->
+                    <div class="profile-ring ring-1"></div>
+                    <div class="profile-ring ring-2"></div>
+                    <div class="profile-ring ring-3"></div>
+                    
+                    <!-- Core Profile Image -->
+                    <div class="profile-image-container">
+                        <div class="profile-image-inner">
+                            <img src="./profile.png" id="hero-img" alt="My Profile" class="hero-portrait">
+                            <div class="profile-overlay-gradient"></div>
+                        </div>
+                    </div>
+
+                    <!-- Floating Badges -->
+                    <div class="modern-float-badge float-badge-left">
+                        <div class="fb-icon">✨</div>
+                        <span>100% Commitment</span>
+                    </div>
+                    <div class="modern-float-badge float-badge-right">
+                        <div class="fb-icon">🎯</div>
+                        <span>Future Developer</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Wave Divider mimicking the fluid section transition -->
+        <div class="section-divider">
+            <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+                <path fill="#0f1123" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,218.7C384,213,480,171,576,170.7C672,171,768,213,864,229.3C960,245,1056,235,1152,213.3C1248,192,1344,160,1392,144L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+
+        <div class="dark-background-wrapper">
+            <!-- Location Section (Dynamic & Modern - Compact Version) -->
+            <section id="location" class="location-section" style="padding: 3rem 5% 3.5rem; position: relative; overflow: hidden;">
+                <!-- Glowing background specific to location -->
+                <div style="position: absolute; top: 10%; left: -5%; width: 500px; height: 500px; background: radial-gradient(circle, rgba(168, 85, 247, 0.1) 0%, transparent 60%); z-index: 0; pointer-events: none;"></div>
+                <div style="position: absolute; bottom: -10%; right: -5%; width: 600px; height: 600px; background: radial-gradient(circle, rgba(236, 72, 153, 0.08) 0%, transparent 60%); z-index: 0; pointer-events: none;"></div>
+
+                <div class="skills-header-row" style="position: relative; z-index: 1;">
+                    <div class="header-col" style="font-size: 2.2rem; margin-bottom: 2.5rem; text-align: center; width: 100%; font-weight: 800; letter-spacing: -0.5px;">สถานที่ปฏิบัติงาน <span style="background: var(--primary-grad); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">(เทศบาลเมืองชัยภูมิ)</span></div>
+                </div>
+                
+                <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: stretch; max-width: 1000px; margin: 0 auto; position: relative; z-index: 1;">
+                    
+                    <!-- Left Column: Stylized Image Card with Overlays -->
+                    <div style="flex: 1; min-width: 300px; position: relative; display: flex;">
+                        <div style="position: relative; width: 100%; height: 100%; min-height: 380px; border-radius: 20px; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,0.5); border: 1px solid rgba(255,255,255,0.08); display: flex; flex-direction: column; justify-content: flex-end;">
+                            <!-- Main Image -->
+                            <img src="./cpy_fb.jpg" alt="สำนักงานเทศบาลเมืองชัยภูมิ" style="width: 100%; height: 100%; object-fit: cover; position: absolute; inset: 0; z-index: 0; transition: transform 0.8s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                            <!-- Gradient Overlay for Readability -->
+                            <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(7, 9, 19, 0.95) 0%, rgba(7, 9, 19, 0.5) 45%, transparent 100%); z-index: 1; pointer-events: none;"></div>
+                            
+                            <!-- Detailed Text Content inside Image -->
+                            <div style="position: relative; z-index: 2; padding: 1.8rem; pointer-events: none;">
+                                <div style="display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap;">
+                                    <span style="background: rgba(236,72,153,0.9); border: 1px solid rgba(255,255,255,0.2); color: white; padding: 5px 12px; border-radius: 16px; font-size: 0.8rem; font-weight: 600; backdrop-filter: blur(8px);">🏛️ สำนักงานเทศบาล</span>
+                                    <span style="background: rgba(168,85,247,0.9); border: 1px solid rgba(255,255,255,0.2); color: white; padding: 5px 12px; border-radius: 16px; font-size: 0.8rem; font-weight: 600; backdrop-filter: blur(8px);">📍 จ.ชัยภูมิ</span>
+                                </div>
+                                <h3 style="color: white; font-size: 1.6rem; margin-bottom: 8px; font-weight: 800; text-shadow: 0 4px 15px rgba(0,0,0,0.8);">เทศบาลเมืองชัยภูมิ</h3>
+                                <p style="color: rgba(255,255,255,0.85); font-size: 0.9rem; line-height: 1.6; text-shadow: 0 2px 10px rgba(0,0,0,0.8); max-width: 95%;">ศูนย์กลางการบริหารและบริการประชาชน ที่ๆ ผมได้เรียนรู้การทำงานจริงในตำแหน่ง Developer และ IT Support ท่ามกลางบรรยากาศที่เป็นมืออาชีพ</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Floating decoration element -->
+                        <div style="position: absolute; top: -12px; left: -12px; width: 45px; height: 45px; background: var(--primary-grad); border-radius: 50%; padding: 2px; box-shadow: 0 8px 20px rgba(168,85,247,0.3); animation: float 4s infinite ease-in-out;">
+                            <div style="width: 100%; height: 100%; background: #1A1C29; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.1rem;">💡</div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Interactive Map Widget -->
+                    <div style="flex: 1; min-width: 300px; display: flex; flex-direction: column; justify-content: center;">
+                        <div class="glass-panel" style="padding: 1.5rem; border-radius: 20px; box-shadow: 0 15px 40px rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.08); background: rgba(22, 24, 40, 0.75); position: relative; overflow: hidden; backdrop-filter: blur(20px);">
+                            
+                            <!-- Header Setup for Map -->
+                            <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 1.2rem;">
+                                <div style="width: 45px; height: 45px; border-radius: 12px; background: rgba(168,85,247,0.15); display: flex; align-items: center; justify-content: center; color: #D8B4FE; font-size: 1.2rem; border: 1px solid rgba(168,85,247,0.3);">🗺️</div>
+                                <div>
+                                    <h4 style="color: #fff; margin: 0 0 3px 0; font-size: 1.1rem; font-weight: 700;">พิกัดและที่ตั้ง</h4>
+                                    <p style="color: rgba(255,255,255,0.6); margin: 0; font-size: 0.85rem;">อำเภอเมืองชัยภูมิ จังหวัดชัยภูมิ 36000</p>
+                                </div>
+                            </div>
+                            
+                            <!-- The Map Iframe -->
+                            <div style="border-radius: 16px; overflow: hidden; position: relative; box-shadow: inset 0 0 20px rgba(0,0,0,0.5); padding: 3px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.05);">
+                                <iframe src="https://maps.google.com/maps?q=เทศบาลเมืองชัยภูมิ&t=&z=16&ie=UTF8&iwloc=&output=embed" width="100%" height="220" style="border:0; border-radius: 12px; filter: contrast(1.1) saturate(1.15) brightness(0.95);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            
+                            <!-- Call to Action Link -->
+                            <div style="margin-top: 1.2rem; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.06); padding-top: 1.2rem;">
+                                <div style="color: rgba(255,255,255,0.8); font-size: 0.9rem;">
+                                    <strong style="color: #fff;">ระยะเวลา:</strong> 4 เดือนเต็ม
+                                </div>
+                                <a href="https://maps.app.goo.gl/X5VCnqoDqHBpqro26" target="_blank" class="cta-btn secondary-btn alt-btn" style="text-decoration: none; border-radius: 16px; font-size: 0.85rem; padding: 8px 16px; display: flex; align-items: center; gap: 6px; font-weight: 600; border-color: rgba(168,85,247,0.4);">
+                                    เปิดแอปแผนที่ <span style="font-size: 1rem; color: #D8B4FE;">↗</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Split Section (Tasks & Tech Stack) -->
+            <section id="split-view" class="slide-up">
+                <div class="split-layout-wrapper">
+                    <!-- Left Column: Tasks -->
+                    <div id="tasks" class="split-col">
+                        <h2>งานที่ได้รับมอบหมาย</h2>
+                        <div class="task-list">
+                            <!-- Task 1 -->
+                            <div class="horizontal-task-card glow-border-purple">
+                                <div class="h-task-icon purple-gradient">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
+                                </div>
+                                <div class="h-task-content">
+                                    <h4>พัฒนาระบบร้องเรียนออนไลน์ Smart Complaint</h4>
+                                    <p>ระบบรับเรื่องราวร้องทุกข์อัจฉริยะแบบเบ็ดเสร็จ ช่วยให้ประชาชนแจ้งปัญหาได้สะดวก และอำนวยความสะดวกให้เจ้าหน้าที่บริหารจัดการปัญหาได้อย่างรวดเร็ว</p>
+                                </div>
+                            </div>
+                            <!-- Task 2 -->
+                            <div class="horizontal-task-card glow-border-blue">
+                                <div class="h-task-icon blue-gradient">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M8 11h8"/><path d="M12 7v8"/></svg>
+                                </div>
+                                <div class="h-task-content">
+                                    <h4>พัฒนาระบบ Chaiyaphum Smart EMS</h4>
+                                    <p>ระบบบริหารจัดการด้านการแพทย์ฉุกเฉินอัจฉริยะแบบครบวงจร มุ่งเน้นการอำนวยความสะดวกและยกระดับการให้บริการทางการแพทย์แก่ประชาชน</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Cooler Frameless 3D Cube Effect -->
+                            <div style="width: 100%; height: 180px; margin-top: 1rem; position: relative; display: flex; align-items: center; justify-content: center; background: transparent; border: none; perspective: 800px;">
+                                
+                                <div style="position: relative; width: 70px; height: 70px; transform-style: preserve-3d; animation: cube-spin 10s infinite linear;">
+                                    <!-- Faces of the 3D Cube -->
+                                    <div style="position: absolute; width: 100%; height: 100%; background: rgba(168, 85, 247, 0.05); border: 2px solid rgba(168, 85, 247, 0.8); box-shadow: 0 0 20px rgba(168, 85, 247, 0.6), inset 0 0 20px rgba(168, 85, 247, 0.4); transform: translateZ(35px);"></div>
+                                    <div style="position: absolute; width: 100%; height: 100%; background: rgba(236, 72, 153, 0.05); border: 2px solid rgba(236, 72, 153, 0.8); box-shadow: 0 0 20px rgba(236, 72, 153, 0.6), inset 0 0 20px rgba(236, 72, 153, 0.4); transform: rotateY(180deg) translateZ(35px);"></div>
+                                    <div style="position: absolute; width: 100%; height: 100%; background: rgba(59, 130, 246, 0.05); border: 2px solid rgba(59, 130, 246, 0.8); box-shadow: 0 0 20px rgba(59, 130, 246, 0.6), inset 0 0 20px rgba(59, 130, 246, 0.4); transform: rotateY(90deg) translateZ(35px);"></div>
+                                    <div style="position: absolute; width: 100%; height: 100%; background: rgba(168, 85, 247, 0.05); border: 2px solid rgba(168, 85, 247, 0.8); box-shadow: 0 0 20px rgba(168, 85, 247, 0.6), inset 0 0 20px rgba(168, 85, 247, 0.4); transform: rotateY(-90deg) translateZ(35px);"></div>
+                                    <div style="position: absolute; width: 100%; height: 100%; background: rgba(236, 72, 153, 0.05); border: 2px solid rgba(236, 72, 153, 0.8); box-shadow: 0 0 20px rgba(236, 72, 153, 0.6), inset 0 0 20px rgba(236, 72, 153, 0.4); transform: rotateX(90deg) translateZ(35px);"></div>
+                                    <div style="position: absolute; width: 100%; height: 100%; background: rgba(59, 130, 246, 0.05); border: 2px solid rgba(59, 130, 246, 0.8); box-shadow: 0 0 20px rgba(59, 130, 246, 0.6), inset 0 0 20px rgba(59, 130, 246, 0.4); transform: rotateX(-90deg) translateZ(35px);"></div>
+                                    
+                                    <!-- Inner floating icon inside the cube -->
+                                    <i class="fas fa-satellite" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 1.8rem; color: #fff; text-shadow: 0 0 15px #fff, 0 0 30px #EC4899;"></i>
+                                </div>
+
+                                <style>
+                                    @keyframes cube-spin {
+                                        0% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+                                        100% { transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg); }
+                                    }
+                                    .float-particle { position: absolute; border-radius: 50%; animation: particle-float linear infinite; }
+                                    @keyframes particle-float { 
+                                        0% { transform: translateY(0) scale(0.5); opacity: 0; }
+                                        50% { opacity: 1; transform: translateY(-50px) scale(1); }
+                                        100% { transform: translateY(-100px) scale(0.5); opacity: 0; }
+                                    }
+                                </style>
+
+                                <!-- Floating Particles -->
+                                <div class="float-particle" style="width: 4px; height: 4px; box-shadow: 0 0 10px #A855F7; background: #A855F7; left: 35%; bottom: 40px; animation-duration: 3s; animation-delay: 0s;"></div>
+                                <div class="float-particle" style="width: 6px; height: 6px; box-shadow: 0 0 10px #EC4899; background: #EC4899; right: 30%; bottom: 30px; animation-duration: 4s; animation-delay: 1s;"></div>
+                                <div class="float-particle" style="width: 3px; height: 3px; box-shadow: 0 0 10px #3B82F6; background: #3B82F6; left: 50%; bottom: 20px; animation-duration: 2.5s; animation-delay: 0.5s;"></div>
+
+                                <!-- Subtle Glow Floor under the cube -->
+                                <div style="position: absolute; bottom: 30px; width: 120px; height: 10px; background: radial-gradient(ellipse at center, rgba(168,85,247,0.4) 0%, transparent 70%); border-radius: 50%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Tech Stack -->
+                    <div id="skills" class="split-col">
+                        <h2>เทคโนโลยีและเครื่องมือที่ใช้</h2>
+                        <div class="tech-cards-column">
+                            <!-- Category 1 -->
+                            <div class="split-tech-card">
+                                <div class="split-tech-header">
+                                    <div class="t-icon blue-text">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                                    </div>
+                                    <h5>ภาษาที่ใช้ (Languages)</h5>
+                                </div>
+                                <div class="modern-tech-tags">
+                                    <span class="m-tag">PHP</span>
+                                    <span class="m-tag">JavaScript</span>
+                                    <span class="m-tag">HTML & CSS</span>
+                                    <span class="m-tag">SQL</span>
+                                </div>
+                            </div>
+                            <!-- Category 2 -->
+                            <div class="split-tech-card">
+                                <div class="split-tech-header">
+                                    <div class="t-icon purple-text">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                                    </div>
+                                    <h5>Frameworks & Libraries</h5>
+                                </div>
+                                <div class="modern-tech-tags">
+                                    <span class="m-tag">Laravel Framework</span>
+                                    <span class="m-tag">Bootstrap</span>
+                                    <span class="m-tag">Google Maps API</span>
+                                    <span class="m-tag">PHPWord</span>
+                                    <span class="m-tag">Simple Software IO</span>
+                                </div>
+                            </div>
+                            <!-- Category 3 -->
+                            <div class="split-tech-card">
+                                <div class="split-tech-header">
+                                    <div class="t-icon pink-text">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+                                    </div>
+                                    <h5>Development Tools</h5>
+                                </div>
+                                <div class="modern-tech-tags">
+                                    <span class="m-tag">Visual Studio Code</span>
+                                    <span class="m-tag">XAMPP</span>
+                                    <span class="m-tag">Composer</span>
+                                    <span class="m-tag">Git / GitHub</span>
+                                    <span class="m-tag special-gemini">✨ Gemini</span>
+                                    <span class="m-tag special-anti">🚀 Antigravity</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- My 4-Month Journey Timeline -->
+            <section id="journey" class="journey-section slide-up">
+                <div class="skills-header-row" style="margin-bottom: 4rem;">
+                    <div class="header-col" style="font-size: 2.8rem; margin-bottom: 1rem; text-align: center; width: 100%; font-weight: 800; letter-spacing: -0.5px;">
+                        My 4-Month <span style="color: #EC4899;">Journey</span>
+                    </div>
+                    <p style="text-align: center; color: rgba(255,255,255,0.7); font-size: 1.1rem; max-width: 600px; margin: 0 auto; line-height: 1.8;">
+                        สรุปประสบการณ์และสิ่งที่ได้เรียนรู้ตลอดระยะเวลาการฝึกงาน<br>ตั้งแต่ 17 พฤศจิกายน 2568 ถึง 15 มีนาคม 2569
+                    </p>
+                </div>
+
+                <div class="timeline-horizontal">
+                    <div class="timeline-line"></div>
+                    
+                    <!-- Month 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-month"> พ.ย. -  ธ.ค.</div>
+                            <h3 class="timeline-title">เดือนแรก</h3>
+                            <p class="timeline-desc">เริ่มต้นทำความรู้จักกับทีม วัฒนธรรมองค์กร และเรียนรู้การใช้งานระบบใหม่ๆ ที่จำเป็นสำหรับการทำงานจริง</p>
+                        </div>
+                    </div>
+
+                    <!-- Month 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-month"> ธ.ค. -  ม.ค.</div>
+                            <h3 class="timeline-title">เดือนที่สอง</h3>
+                            <p class="timeline-desc">ได้รับมอบหมายให้เริ่มพัฒนาโปรเจกต์แรก วางแผน สื่อสารกับทีม และลงมือโครงสร้างระบบจนเกิดเป็นรูปเป็นร่าง</p>
+                        </div>
+                    </div>
+
+                    <!-- Month 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-month"> ม.ค. -  ก.พ.</div>
+                            <h3 class="timeline-title">เดือนที่3</h3>
+                            <p class="timeline-desc">รับ Feedback จากหัวหน้างาน และเริ่มดูแลโปรเจกต์ที่สอง ระบบ EMS ต่อเนื่องจากโปรเจคแรก</p>
+                        </div>
+                    </div>
+
+                    <!-- Month 4 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-month"> ก.พ. - 15 มี.ค.</div>
+                            <h3 class="timeline-title">เดือนที่4</h3>
+                            <p class="timeline-desc">ปรับปรุงแก้ไข Error (Bugs) ทำการทดสอบความถูกต้องของระบบอย่างละเอียด พร้อมส่งมอบงานให้เทศบาลนำไปใช้</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- My Working Section -->
+            <section id="my-working" class="working-section slide-up">
+                <div class="skills-header-row">
+                    <div class="header-col" style="font-size: 2.5rem; margin-bottom: 3rem; text-align: center; width: 100%; font-weight: 800; letter-spacing: -0.5px;">My Working <span style="color: #EC4899;">(ผลงานที่หน้าเว็บ)</span></div>
+                </div>
+                
+                <div class="working-container">
+                    <!-- Project 1 -->
+                    <div class="working-card">
+                        <div class="working-img-wrapper">
+                            <img src="./complaint-system.png" alt="Smart Complaint Admin Panel" onerror="this.src='https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop';">
+                            <div class="working-badge">✨ Laravel Project</div>
+                        </div>
+                        <div class="working-info">
+                            <h3 class="working-title">ระบบร้องเรียนออนไลน์ Smart Complaint</h3>
+                            <p class="working-desc">หน้าต่างผู้ดูแลระบบ (Admin Dashboard) สำหรับจัดการเคสร้องเรียนต่างๆ แบ่งหมวดหมู่ แจ้งสถานะอย่างชัดเจน และประมวลผลการทำงานของระบบได้อย่างรวดเร็วในรูปแบบแพลตฟอร์ม Web Application</p>
+                            <div class="working-actions">
+                                <button class="cta-btn primary-btn" onclick="openModal('project-modal-1')">ดูรายละเอียด</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="working-card reverse">
+                        <div class="working-img-wrapper">
+                            <img src="./ems-system.png" alt="Chaiyaphum Smart EMS Map" onerror="this.src='https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=1200&auto=format&fit=crop';">
+                            <div class="working-badge">✨ Laravel Project</div>
+                        </div>
+                        <div class="working-info">
+                            <h3 class="working-title">ระบบพิกัดแจ้งเหตุ Chaiyaphum Smart EMS</h3>
+                            <p class="working-desc">หน้าต่างแผนที่แสดงพิกัดที่ตั้ง ข้อมูลพื้นที่และข้อมูลผู้ป่วย ควบคุมและประมวลผลผ่าน Maps API ออกแบบ UI ชัดเจน ลดความซับซ้อน ช่วยให้แพทย์และเจ้าหน้าที่เข้าถึงพื้นที่ได้อย่างแม่นยำ</p>
+                            <div class="working-actions">
+                                <button class="cta-btn primary-btn" onclick="openModal('project-modal-2')">ดูรายละเอียด</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Gallery / Team Section -->
+            <section id="gallery" class="gallery-section feature-delay" style="padding: 0 5% 4rem;">
+                <div class="skills-header-row">
+                    <div class="header-col" style="font-size: 2rem; margin-bottom: 2rem; text-align: center; width: 100%;">ภาพบรรยากาศการทำงานและการดูแลระบบ</div>
+                </div>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem;">
+                    <div class="gallery-container glass-panel" style="padding: 1rem; border-radius: 24px;">
+                        <img src="./team-work.jpg" alt="บรรยากาศการทำงานกับพี่เลี้ยงเทศบาลเมืองชัยภูมิ" style="width: 100%; border-radius: 16px; object-fit: cover; height: 400px; display: block; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'" onerror="this.src='https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop';">
+                    </div>
+                    <div class="gallery-container glass-panel" style="padding: 1rem; border-radius: 24px;">
+                        <img src="./team.jpg" alt="การประชุมและวางแผนระบบ" style="width: 100%; border-radius: 16px; object-fit: cover; height: 400px; display: block; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'" onerror="this.src='https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1200&auto=format&fit=crop';">
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-top" style="text-align: center; margin-bottom: 3rem;">
+            <h2 class="footer-title" style="background: linear-gradient(90deg, #A855F7, #EC4899); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; display: inline-block; margin-bottom: 1rem;">บทสรุปการเรียนรู้และการเติบโต</h2>
+            <p class="footer-tagline" style="max-width: 900px; margin: 0 auto; color: #4B5563; font-size: 1.1rem; line-height: 1.8;">
+                การฝึกงาน ณ เทศบาลเมืองชัยภูมิ ครั้งนี้คือพื้นที่แห่งการเรียนรู้ที่ไม่มีขีดจำกัด ผมได้เปลี่ยนจากความรู้ในตำราสู่การลงมือสร้างสรรค์นวัตกรรมที่ใช้งานได้จริงเพื่อประชาชน 
+                ทุกระบบที่ร่วมพัฒนาคือความภาคภูมิใจที่ได้ใช้เทคโนโลยีเป็นเครื่องมือในการขับเคลื่อนสังคมให้ดีขึ้น 
+                และประสบการณ์ครั้งนี้จะเป็นรากฐานอันมั่นคงในการก้าวสู่โลกการทำงานจริงในอนาคตอย่างมั่นใจ
+            </p>
+        </div>
+        <div class="footer-cards">
+            <div class="footer-card bg-grad-light-purple" style="flex-direction: row; align-items: center; justify-content: flex-start; gap: 0.6rem;">
+                <div class="fc-icon" style="margin-bottom: 0; font-size: 1.35rem;">✉️</div>
+                <div>
+                    <h4 style="margin-bottom: 0; font-size: 0.85rem;">Email</h4>
+                    <p style="font-weight: 600; color: rgba(0,0,0,0.8); font-size: 0.75rem;">nessan03nes@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-card bg-grad-pink-purple" style="flex-direction: row; align-items: center; justify-content: flex-start; gap: 0.6rem;">
+                <div class="fc-icon" style="margin-bottom: 0; font-size: 1.35rem;">📱</div>
+                <div>
+                    <h4 style="margin-bottom: 0; font-size: 0.85rem;">Phone</h4>
+                    <p style="font-weight: 600; color: rgba(0,0,0,0.8); font-size: 0.75rem;">098-540-8577</p>
+                </div>
+            </div>
+            <div class="footer-card dark-solid" style="flex-direction: row; align-items: center; justify-content: flex-start; gap: 0.6rem;">
+                <div class="fc-profile" style="width: 32px; height: 32px; margin-bottom: 0;">
+                    <img src="./team-work.jpg" alt="ทีมงานเทศบาลเมืองชัยภูมิ" style="object-position: top center;" onerror="this.src='https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=400&auto=format&fit=crop';">
+                </div>
+                <div>
+                    <h4 style="font-size: 0.85rem; margin-bottom: 0;">ขอขอบคุณทุกคน!</h4>
+                    <p style="font-size: 0.7rem;">และพี่ๆ ในทีมที่คอยแนะนำ</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Floating Project Details Modal 1 -->
+    <div id="project-modal-1" class="modal-overlay">
+        <!-- Sticky Close Button for screen overlay -->
+        <button class="modal-close-fixed-btn" onclick="closeModal('project-modal-1')" style="position: fixed; top: 25px; right: 30px; z-index: 9999; background: rgba(15, 17, 35, 0.9); border: 2px solid rgba(255,255,255,0.15); border-radius: 50%; width: 45px; height: 45px; color: white; font-size: 1.8rem; cursor: pointer; display: flex; align-items: center; justify-content: center; backdrop-filter: blur(10px); box-shadow: 0 4px 15px rgba(0,0,0,0.6); transition: 0.3s;" onmouseover="this.style.background='rgba(236, 72, 153, 0.9)'; this.style.borderColor='rgba(236, 72, 153, 1)'; this.style.transform='scale(1.1)';" onmouseout="this.style.background='rgba(15, 17, 35, 0.9)'; this.style.borderColor='rgba(255,255,255,0.15)'; this.style.transform='scale(1)';">&times;</button>
+        <div class="modal-content glass-panel">
+            <div class="modal-header">
+                <h2 class="modal-title">ระบบร้องเรียนออนไลน์ Smart Complaint</h2>
+                <!-- Removed Header Meta & Tags by request -->
+            </div>
+
+            <div class="modal-body-full" style="padding-top: 10px;">
+                <p style="text-align: center; color: rgba(255,255,255,0.85); font-size: 1.15rem; max-width: 800px; margin: 0 auto 3.5rem; line-height: 1.7;">
+                    ระบบอัจฉริยะที่ช่วยรับเรื่องราวร้องทุกข์จากประชาชน ตอบสนองรวดเร็ว สามารถติดตามงานได้ และแบ่งหน้าต่างการใช้งานสำหรับเจ้าหน้าที่อย่างเป็นระบบ
+                </p>
+
+                <!-- Project Gallery / Explainations -->
+                <div class="project-showcase">
+                    
+                    <!-- Feature 1 -->
+                    <div style="display: flex; gap: 2.5rem; align-items: center; margin-bottom: 4rem; flex-wrap: wrap;">
+                        <div style="flex: 1.5; min-width: 320px;">
+                            <img src="./re1.png" alt="หน้าแรกระบบ" style="width: 100%; border-radius: 16px; box-shadow: 0 15px 35px rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.05); transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+                        </div>
+                        <div style="flex: 1; min-width: 280px;">
+                            <div style="display: inline-block; background: rgba(168,85,247,0.15); color: #D8B4FE; padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; margin-bottom: 12px; border: 1px solid rgba(168,85,247,0.3);">Landing Page</div>
+                            <h3 style="color: #fff; font-size: 1.6rem; margin-bottom: 1rem; color: #A855F7;">หน้าหลักสำหรับประชาชน</h3>
+                            <p style="color: rgba(255,255,255,0.75); line-height: 1.7; font-size: 1rem;">
+                                ออกแบบหน้าต้อนรับให้สะอาดตาและใช้งานง่าย นำเสนอเนื้อหาครบถ้วน ประชาชนสามารถกดเข้าไปเพื่อเริ่มกรอกฟอร์มหรือติดตามสถานะของตัวเองได้ทันทีในคลิกเดียว
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div style="display: flex; gap: 2.5rem; align-items: center; margin-bottom: 4rem; flex-wrap: wrap; flex-direction: row-reverse;">
+                        <div style="flex: 1.5; min-width: 320px;">
+                            <img src="./re2.png" alt="แบบฟอร์ม" style="width: 100%; border-radius: 16px; box-shadow: 0 15px 35px rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.05); transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+                        </div>
+                        <div style="flex: 1; min-width: 280px;">
+                            <div style="display: inline-block; background: rgba(236,72,153,0.15); color: #F9A8D4; padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; margin-bottom: 12px; border: 1px solid rgba(236,72,153,0.3);">User Form</div>
+                            <h3 style="color: #fff; font-size: 1.6rem; margin-bottom: 1rem; color: #EC4899;">แบบฟอร์มแจ้งร้องเรียน</h3>
+                            <p style="color: rgba(255,255,255,0.75); line-height: 1.7; font-size: 1rem;">
+                                แบบฟอร์มออนไลน์ที่ช่วยให้ประชาชนกรอกข้อมูลได้สะดวก แบ่งสัดส่วนข้อมูลส่วนตัวและรายละเอียดเรื่องร้องเรียนอย่างชัดเจน มีระบบตรวจสอบความถูกต้องเพื่อลดข้อผิดพลาด
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div style="display: flex; gap: 2.5rem; align-items: center; margin-bottom: 2rem; flex-wrap: wrap;">
+                        <div style="flex: 1.5; min-width: 320px;">
+                            <img src="./re3.png" alt="หน้าต่างผู้ดูแลระบบ" style="width: 100%; border-radius: 16px; box-shadow: 0 15px 35px rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.05); transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+                        </div>
+                        <div style="flex: 1; min-width: 280px;">
+                            <div style="display: inline-block; background: rgba(59,130,246,0.15); color: #93C5FD; padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; margin-bottom: 12px; border: 1px solid rgba(59,130,246,0.3);">Admin Dashboard</div>
+                            <h3 style="color: #fff; font-size: 1.6rem; margin-bottom: 1rem; color: #3B82F6;">หน้าต่างผู้ดูแลระบบ</h3>
+                            <p style="color: rgba(255,255,255,0.75); line-height: 1.7; font-size: 1rem;">
+                                แผงควบคุม (Dashboard) สำหรับเจ้าหน้าที่ ใช้ประมวลผลสถิติ อัปเดตสถานะของเคสต่างๆ และจัดการเรื่องร้องเรียนที่เข้ามาแต่ละวันได้อย่างรวดเร็วและมีประสิทธิภาพตรวจสอบได้
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Footer of modal: Call to action & Techs -->
+                <div style="text-align: center; margin-top: 3.5rem; padding-top: 2.5rem; border-top: 1px solid rgba(255,255,255,0.08);">
+                    <button class="cta-btn primary-btn" onclick="window.open('https://requestion-chaiyaphum-municipality.banyongservice.com/', '_blank')" style="padding: 12px 30px; font-size: 1.05rem; border-radius: 30px; display: inline-flex; align-items: center; gap: 8px;">
+                        🌐 เปิดดูเว็บไซต์จริง <span style="font-size: 1.3rem; margin-left: 4px;">↗</span>
+                    </button>
+                    
+                    <!-- Removed Tech Stack line by request -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Project Details Modal 2 -->
+    <div id="project-modal-2" class="modal-overlay">
+        <!-- Sticky Close Button for screen overlay -->
+        <button class="modal-close-fixed-btn" onclick="closeModal('project-modal-2')" style="position: fixed; top: 25px; right: 30px; z-index: 9999; background: rgba(15, 17, 35, 0.9); border: 2px solid rgba(255,255,255,0.15); border-radius: 50%; width: 45px; height: 45px; color: white; font-size: 1.8rem; cursor: pointer; display: flex; align-items: center; justify-content: center; backdrop-filter: blur(10px); box-shadow: 0 4px 15px rgba(0,0,0,0.6); transition: 0.3s;" onmouseover="this.style.background='rgba(236, 72, 153, 0.9)'; this.style.borderColor='rgba(236, 72, 153, 1)'; this.style.transform='scale(1.1)';" onmouseout="this.style.background='rgba(15, 17, 35, 0.9)'; this.style.borderColor='rgba(255,255,255,0.15)'; this.style.transform='scale(1)';">&times;</button>
+        <div class="modal-content glass-panel">
+            <div class="modal-header">
+                <h2 class="modal-title">ระบบพิกัดแจ้งเหตุ Chaiyaphum Smart EMS</h2>
+                <!-- Removed Header Meta & Tags by request -->
+            </div>
+
+            <div class="modal-body-full" style="padding-top: 10px;">
+                <p style="text-align: center; color: rgba(255,255,255,0.85); font-size: 1.15rem; max-width: 800px; margin: 0 auto 3.5rem; line-height: 1.7;">
+                    โปรเจกต์พัฒนาระบบบริหารจัดการด้านการแพทย์ฉุกเฉินอัจฉริยะ (Smart EMS) โดยผสานการทำงานของระบบฐานข้อมูลผู้ป่วย เข้ากับระบบแผนที่อัจฉริยะ เพื่ออำนวยความสะดวกในการเข้าช่วยเหลืออย่างทันท่วงที
+                </p>
+
+                <!-- Project Gallery / Explainations -->
+                <div class="project-showcase">
+                    
+                    <!-- Feature 1 -->
+                    <div style="display: flex; gap: 2.5rem; align-items: center; margin-bottom: 4rem; flex-wrap: wrap;">
+                        <div style="flex: 1.5; min-width: 320px;">
+                            <img src="./ems1.png" alt="การค้นหาพิกัดผู้ป่วย" style="width: 100%; border-radius: 16px; box-shadow: 0 15px 35px rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.05); transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+                        </div>
+                        <div style="flex: 1; min-width: 280px;">
+                            <div style="display: inline-block; background: rgba(59,130,246,0.15); color: #93C5FD; padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; margin-bottom: 12px; border: 1px solid rgba(59,130,246,0.3);">Location API</div>
+                            <h3 style="color: #fff; font-size: 1.6rem; margin-bottom: 1rem; color: #3B82F6;">ค้นหาและระบุตำแหน่งผู้ป่วย</h3>
+                            <p style="color: rgba(255,255,255,0.75); line-height: 1.7; font-size: 1rem;">
+                                อินเทอร์เฟซอัจฉริยะแบ่งหน้าจอเป็นส่วนแผนที่และการค้นหา ช่วยให้เจ้าหน้าที่ค้นหาข้อมูลหรือรหัสผู้ป่วยได้อย่างรวดเร็ว ระบบจะแสดงหมุดพิกัดบนแผนที่พร้อมหน้าต่างสรุปข้อมูลสมาชิกในบ้าน และปุ่มนำทางฉุกเฉิน (Google Maps) ทันที
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div style="display: flex; gap: 2.5rem; align-items: center; margin-bottom: 2rem; flex-wrap: wrap; flex-direction: row-reverse;">
+                        <div style="flex: 1.5; min-width: 320px;">
+                            <img src="./ems2.png" alt="รายการผู้ป่วยและประวัติ" style="width: 100%; border-radius: 16px; box-shadow: 0 15px 35px rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.05); transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+                        </div>
+                        <div style="flex: 1; min-width: 280px;">
+                            <div style="display: inline-block; background: rgba(236,72,153,0.15); color: #F9A8D4; padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; margin-bottom: 12px; border: 1px solid rgba(236,72,153,0.3);">Patient Directory</div>
+                            <h3 style="color: #fff; font-size: 1.6rem; margin-bottom: 1rem; color: #EC4899;">รายการข้อมูลฉุกเฉินผู้ป่วย</h3>
+                            <p style="color: rgba(255,255,255,0.75); line-height: 1.7; font-size: 1rem;">
+                                ฟีเจอร์แสดงผลการค้นหาแบบรายการ พร้อมป้ายกำกับ (Badges) แจ้งเตือนสถานะผู้ป่วยติดเตียง และโรคประจำตัวด้วยสีสันเร่งด่วนที่ชัดเจน ช่วยให้รถพยาบาลและทีมแพทย์เตรียมการปฐมพยาบาลได้อย่างแม่นยำก่อนลงพื้นที่จริง
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Footer of modal: Call to action -->
+                <div style="text-align: center; margin-top: 3.5rem; padding-top: 2.5rem; border-top: 1px solid rgba(255,255,255,0.08);">
+                    <button class="cta-btn primary-btn" onclick="window.open('https://requestion-chaiyaphum-municipality.banyongservice.com/', '_blank')" style="padding: 12px 30px; font-size: 1.05rem; border-radius: 30px; display: inline-flex; align-items: center; gap: 8px;">
+                        🌐 เปิดดูเว็บไซต์จริง <span style="font-size: 1.3rem; margin-left: 4px;">↗</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
