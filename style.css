@@ -957,5 +957,6 @@ section[id] {
         padding-bottom: 2rem !important;
         width: 100%;
     }
+    .mobile-sub-header { display: block !important; font-size: 0.65em !important; margin-top: 5px; }
     .section-divider svg { height: 40px; }
 }
